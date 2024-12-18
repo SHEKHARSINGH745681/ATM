@@ -75,16 +75,6 @@
   },
   {
     "ContainingType": "ATM.Controllers.UserController",
-    "Method": "GetTransactionHistory",
-    "RelativePath": "api/User",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ATM.Controllers.UserController",
     "Method": "GetBalance",
     "RelativePath": "api/User/balance",
     "HttpMethod": "GET",
@@ -123,6 +113,26 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM.Controllers.UserController",
+    "Method": "GetTransactionHistory",
+    "RelativePath": "api/User/History",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM.Controllers.UserController",
+    "Method": "GetHistory",
+    "RelativePath": "api/User/PDF",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

@@ -12,19 +12,21 @@ namespace ATM.Data
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
-        public DbSet<Balance> Balances { get; set; } 
+        public DbSet<Balance> Balances { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
             builder.Entity<Balance>()
-               .HasOne(b => b.User)
-               .WithMany()
-               .HasForeignKey(b => b.UserId)
-            .IsRequired();
+                .HasOne(b => b.User)
+                .WithMany()
+                .HasForeignKey(b => b.UserId)
+                .IsRequired();
 
-         
+            builder.Entity<Balance>()
+                .Property(b => b.TransactionType)
+                .HasConversion<string>();  
         }
 
     }

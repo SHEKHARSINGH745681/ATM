@@ -1,7 +1,9 @@
-﻿using ATM.Models;
+﻿using ATM.Controllers.Enum;
+using ATM.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Emit;
 
 namespace ATM.Data
 {
@@ -20,7 +22,10 @@ namespace ATM.Data
                .HasOne(b => b.User)
                .WithMany()
                .HasForeignKey(b => b.UserId)
-               .IsRequired(); 
+            .IsRequired();
+
+         
         }
+
     }
 }

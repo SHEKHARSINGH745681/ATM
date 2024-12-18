@@ -65,8 +65,8 @@
   },
   {
     "ContainingType": "ATM.Controllers.AdminController",
-    "Method": "Get",
-    "RelativePath": "api/Admin",
+    "Method": "GetAllUsersWithBalances",
+    "RelativePath": "api/Admin/allusers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -75,7 +75,7 @@
   },
   {
     "ContainingType": "ATM.Controllers.UserController",
-    "Method": "Get",
+    "Method": "GetTransactionHistory",
     "RelativePath": "api/User",
     "HttpMethod": "GET",
     "IsController": true,
@@ -96,7 +96,7 @@
   {
     "ContainingType": "ATM.Controllers.UserController",
     "Method": "Deposit",
-    "RelativePath": "api/User/deposit",
+    "RelativePath": "api/User/Credit",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -111,8 +111,8 @@
   },
   {
     "ContainingType": "ATM.Controllers.UserController",
-    "Method": "Withdraw",
-    "RelativePath": "api/User/withdraw",
+    "Method": "Debit",
+    "RelativePath": "api/User/Debit",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

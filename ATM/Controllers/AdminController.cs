@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using ATM.Data;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ATM.Controllers
 {
@@ -8,10 +11,26 @@ namespace ATM.Controllers
     [ApiController]
     public class AdminController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IConfiguration _configuration;
+        public AdminController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
-            return Ok("You have accessed the Admin controller.");
+            _context = context;
+            _userManager = userManager;
         }
+
+        [HttpGet("allusers")]
+        public async Task<IActionResult> GetAllUsersWithBalances()
+        {
+            var balanceWithUser = await _context.Balances
+                .Include(b => b.User)
+                .Where(b => b.Amount > 0)
+                .ToListAsync();
+
+            return Ok(balanceWithUser);
+        }
+
     }
 }

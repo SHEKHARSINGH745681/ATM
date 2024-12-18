@@ -121,3 +121,4 @@ D:\Projects\ATM\ATM\obj\Debug\net8.0\refint\ATM.dll
 D:\Projects\ATM\ATM\obj\Debug\net8.0\ATM.pdb
 D:\Projects\ATM\ATM\obj\Debug\net8.0\ATM.genruntimeconfig.cache
 D:\Projects\ATM\ATM\obj\Debug\net8.0\ref\ATM.dll
+D:\Projects\ATM\ATM\obj\Debug\net8.0\ATM.sourcelink.json

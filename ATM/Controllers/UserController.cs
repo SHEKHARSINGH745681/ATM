@@ -1,6 +1,7 @@
 ﻿using ATM.Controllers.Enum;
 using ATM.Data;
 using ATM.Models;
+using iText.IO.Image;
 using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
@@ -231,22 +232,31 @@ namespace ATM.Controllers
             }
 
             var transactions = await _context.Balances
-                                              .Where(b => b.User.Id == user.Id)
-                                              .OrderBy(b => b.CreatedAt)
-                                              .Select(b => new
-                                              {
-                                                  b.Amount,
-                                                  TransactionType = b.TransactionType == 0 ? "Credit" : "Debit",
-                                                  b.CreatedAt
-                                              })
-                                              .ToListAsync();
+               .Where(b => b.User.Id == user.Id)
+               .OrderBy(b => b.CreatedAt)
+               .Select(b => new
+               {
+                   b.Amount,
+                   TransactionType = b.TransactionType == 0 ? "Credit" : "Debit", // Assuming 0 = Credit, 1 = Debit
+                   b.CreatedAt
+               })
+               .ToListAsync();
 
             decimal currentBalance = 0;
             var transactionHistory = new List<object>();
 
             foreach (var transaction in transactions)
             {
-                currentBalance += transaction.TransactionType == "Credit" ? transaction.Amount : -transaction.Amount;
+                if (transaction.TransactionType == "Credit")
+                {
+                    currentBalance += transaction.Amount;  // Increase balance for credit
+                }
+                else if (transaction.TransactionType == "Debit")
+                {
+                    currentBalance -= Math.Abs(transaction.Amount);  
+                    
+                }
+
 
                 transactionHistory.Add(new
                 {
@@ -262,6 +272,7 @@ namespace ATM.Controllers
                 return Ok(new { Message = "No transactions found for this user.", Transactions = new List<object>() });
             }
 
+
             // Generate PDF
             using var memoryStream = new MemoryStream();
             using (var writer = new PdfWriter(memoryStream))
@@ -269,12 +280,17 @@ namespace ATM.Controllers
                 var pdfDoc = new PdfDocument(writer);
                 var document = new Document(pdfDoc);
 
-                // Add content to the PDF
+                // (IST)
+                DateTime systemTime = DateTime.Now;
+
+                string currentDate = systemTime.ToString("dd-MM-yyyy");
+
+                // Add content to the document
                 document.Add(new Paragraph("Transaction History").SetBold().SetFontSize(18));
                 document.Add(new Paragraph($"User: {user.UserName}").SetFontSize(12));
-                string currentDate = DateTime.Now.ToString("dd-MM-yyyy");
                 document.Add(new Paragraph($"Date: {currentDate}").SetFontSize(12));
                 document.Add(new Paragraph("\n"));
+
 
                 var table = new Table(UnitValue.CreatePercentArray(new float[] { 3, 3, 3, 3 })).UseAllAvailableWidth();
 
@@ -295,6 +311,11 @@ namespace ATM.Controllers
 
 
                 document.Add(table);
+                string logoPath = @"D:\Image\SV-Logo.png";
+                var logo = new Image(ImageDataFactory.Create(logoPath));
+                logo.SetAutoScale(true);
+                logo.SetFixedPosition(440, 30);
+                document.Add(logo);
                 document.Close();
             }
 

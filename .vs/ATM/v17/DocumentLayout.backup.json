@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\models\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\appsettings.json",
               "RelativeDocumentMoniker": "ATM\\appsettings.json",
@@ -71,8 +71,7 @@
               "RelativeToolTip": "ATM\\Models\\Balance.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:15:24.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:15:24.095Z"
             },
             {
               "$type": "Document",
@@ -84,12 +83,11 @@
               "RelativeToolTip": "ATM\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:16:42.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:16:42.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "ATM\\Controllers\\AdminController.cs",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "ATM\\Controllers\\AdminController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwBgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:12:52.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:12:52.581Z"
             },
             {
               "$type": "Document",
@@ -106,9 +103,9 @@
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ATM\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ATM\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAUBAAAAAAAAAAAAABMBAABUAAAAAAAAAA==",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "ATM\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAAC8BAAAAAAAAAAAAADwBAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T11:11:20.335Z",
               "EditorCaption": ""
@@ -123,8 +120,7 @@
               "RelativeToolTip": "ATM\\Migrations\\20241218083608_Add10.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:16:40.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:16:40.314Z"
             },
             {
               "$type": "Document",
@@ -136,8 +132,7 @@
               "RelativeToolTip": "ATM\\Controllers\\Enum\\TransactionType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:16:11.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:16:11.926Z"
             },
             {
               "$type": "Document",
@@ -149,8 +144,7 @@
               "RelativeToolTip": "ATM\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:15:09.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:15:09.44Z"
             },
             {
               "$type": "Document",
@@ -162,8 +156,7 @@
               "RelativeToolTip": "ATM\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:12:54.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:12:54.709Z"
             }
           ]
         }

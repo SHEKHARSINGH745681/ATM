@@ -51,6 +51,28 @@ namespace ATM.Migrations
                     b.ToTable("Balances");
                 });
 
+            modelBuilder.Entity("ATM.Models.ImportExcel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Age")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PINCODE")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("importExcels", (string)null);
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")

@@ -100,6 +100,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ATM.Controllers.ImportExcels",
+    "Method": "ImportExcel",
+    "RelativePath": "api/ImportExcels/ImportExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ATM.Controllers.UserController",
     "Method": "GetBalance",
     "RelativePath": "api/User/balance",

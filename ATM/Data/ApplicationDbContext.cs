@@ -13,6 +13,7 @@ namespace ATM.Data
         {
         }
         public DbSet<Balance> Balances { get; set; }
+        public DbSet<ImportExcel> importExcels { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -26,7 +27,14 @@ namespace ATM.Data
 
             builder.Entity<Balance>()
                 .Property(b => b.TransactionType)
-                .HasConversion<string>();  
+                .HasConversion<string>();
+
+            builder.Entity<ImportExcel>(entity =>
+            {
+                entity.ToTable("importExcels");
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).ValueGeneratedOnAdd(); // Auto-increment
+            });
         }
 
     }

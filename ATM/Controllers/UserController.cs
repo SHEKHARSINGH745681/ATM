@@ -237,7 +237,7 @@ namespace ATM.Controllers
                .Select(b => new
                {
                    b.Amount,
-                   TransactionType = b.TransactionType == 0 ? "Credit" : "Debit", // Assuming 0 = Credit, 1 = Debit
+                   TransactionType = b.TransactionType == 0 ? "Credit" : "Debit",
                    b.CreatedAt
                })
                .ToListAsync();

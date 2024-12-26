@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\ATM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\importexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\importexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\models\\importexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\models\\importexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,32 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ATM\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ATM\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Program.cs",
+              "RelativeDocumentMoniker": "ATM\\Program.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Program.cs",
+              "RelativeToolTip": "ATM\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:07:07.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImportExcel.cs",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Models\\ImportExcel.cs",
-              "RelativeDocumentMoniker": "ATM\\Models\\ImportExcel.cs",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\Models\\ImportExcel.cs",
-              "RelativeToolTip": "ATM\\Models\\ImportExcel.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T09:40:26.457Z",
+              "WhenOpened": "2024-12-26T10:47:42.061Z",
               "EditorCaption": ""
             },
             {
@@ -66,36 +45,22 @@
               "RelativeDocumentMoniker": "ATM\\Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\Projects\\ATM\\ATM\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "ATM\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwB8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T09:38:31.181Z",
+              "WhenOpened": "2024-12-26T06:45:47.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\appsettings.json",
-              "RelativeDocumentMoniker": "ATM\\appsettings.json",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\appsettings.json",
-              "RelativeToolTip": "ATM\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-24T09:38:24.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ImportExcel.cs",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\ImportExcel.cs",
-              "RelativeDocumentMoniker": "ATM\\Controllers\\ImportExcel.cs",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\ImportExcel.cs",
-              "RelativeToolTip": "ATM\\Controllers\\ImportExcel.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAC8AAAA5AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ATM\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ATM\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T09:37:32.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T06:44:25.464Z"
             }
           ]
         }

@@ -175,7 +175,7 @@ namespace ATM.Controllers
 
             var transactions = await _context.Balances
                                               .Where(b => b.User.Id == use.Id)
-                                              .OrderBy(b => b.CreatedAt) 
+                                              .OrderBy(b => b.CreatedAt)
                                               .Select(b => new
                                               {
                                                   b.Amount,
@@ -253,8 +253,8 @@ namespace ATM.Controllers
                 }
                 else if (transaction.TransactionType == "Debit")
                 {
-                    currentBalance -= Math.Abs(transaction.Amount);  
-                    
+                    currentBalance -= Math.Abs(transaction.Amount);
+
                 }
 
 
@@ -324,10 +324,27 @@ namespace ATM.Controllers
             return File(memoryStream.ToArray(), "application/pdf", fileName);
         }
 
+        //[HttpPost("ResetPassword")]
+        //public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest resetPasswordRequest)
+        //{
+        //    var userId = User.FindFirstValue(System.Security.Claims.ClaimTypes.NameIdentifier);
+        //    if (userId == null)
+        //    {
+        //        return Unauthorized(new { Message = " User not found or not authentucated" });
+        //    }
+        //    //find krege user ko db main se
+        //    var user = await _context.Users.Where
+        //        (x => x.Id == userId).FirstOrDefaultAsync();
+        //    if (user == null)
+        //    {
+        //        return NotFound(new { Message = "User not found." });
 
-
+        //    }
+        //    //validate krege exist password ko
+        //    if()
+        }   
     }
-}
+
 
 
 

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZeFxRfN2HvE=",
+  "dgSpecHash": "usHuQsQhVTM=",
   "success": true,
   "projectFilePath": "D:\\Projects\\ATM\\ATM\\ATM.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ShekharSingh\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ShekharSingh\\.nuget\\packages\\bouncycastle.cryptography\\2.5.0\\bouncycastle.cryptography.2.5.0.nupkg.sha512",
     "C:\\Users\\ShekharSingh\\.nuget\\packages\\epplus\\7.5.2\\epplus.7.5.2.nupkg.sha512",
     "C:\\Users\\ShekharSingh\\.nuget\\packages\\epplus.interfaces\\7.5.0\\epplus.interfaces.7.5.0.nupkg.sha512",

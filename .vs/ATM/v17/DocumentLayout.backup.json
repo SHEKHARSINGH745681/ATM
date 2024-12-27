@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "D:\\Projects\\ATM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\models\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\models\\emailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\models\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\models\\balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\models\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\models\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\alertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|d:\\projects\\atm\\atm\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66FFB3A-98A5-4D49-A907-EBDD47A4E901}|ATM\\ATM.csproj|solutionrelative:atm\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,109 +50,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\appsettings.json",
-              "RelativeDocumentMoniker": "ATM\\appsettings.json",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\appsettings.json",
-              "RelativeToolTip": "ATM\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-27T07:47:05.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmailSetting.cs",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Models\\EmailSetting.cs",
-              "RelativeDocumentMoniker": "ATM\\Models\\EmailSetting.cs",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\Models\\EmailSetting.cs",
-              "RelativeToolTip": "ATM\\Models\\EmailSetting.cs",
+              "Title": "Balance.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Models\\Balance.cs",
+              "RelativeDocumentMoniker": "ATM\\Models\\Balance.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Models\\Balance.cs",
+              "RelativeToolTip": "ATM\\Models\\Balance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:46:58.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AlertController.cs",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\AlertController.cs",
-              "RelativeDocumentMoniker": "ATM\\Controllers\\AlertController.cs",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\AlertController.cs*",
-              "RelativeToolTip": "ATM\\Controllers\\AlertController.cs*",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAuwKwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:44:37.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmailController.cs",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\EmailController.cs",
-              "RelativeDocumentMoniker": "ATM\\Controllers\\EmailController.cs",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\EmailController.cs",
-              "RelativeToolTip": "ATM\\Controllers\\EmailController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:43:22.711Z",
+              "WhenOpened": "2024-12-27T12:44:53.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ATM\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ATM\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAzwBYAAAADAAAAAAAAAA==",
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "ATM\\Models\\Login.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Models\\Login.cs",
+              "RelativeToolTip": "ATM\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T07:43:16.598Z",
+              "WhenOpened": "2024-12-27T12:43:24.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Program.cs",
-              "RelativeDocumentMoniker": "ATM\\Program.cs",
-              "ToolTip": "D:\\Projects\\ATM\\ATM\\Program.cs",
-              "RelativeToolTip": "ATM\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T10:47:42.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ATM\\Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\Projects\\ATM\\ATM\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "ATM\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T06:45:47.392Z"
+              "WhenOpened": "2024-12-27T12:41:40.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ATM\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ATM\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T06:44:25.464Z"
+              "WhenOpened": "2024-12-27T12:27:40.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ATM\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ATM\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEsBAAAAAAAAAAAAwFoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:22:28.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Models\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "ATM\\Models\\ResetPasswordRequest.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Models\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "ATM\\Models\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:21:45.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "ATM\\Models\\Register.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Models\\Register.cs",
+              "RelativeToolTip": "ATM\\Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:24:08.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Program.cs",
+              "RelativeDocumentMoniker": "ATM\\Program.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Program.cs",
+              "RelativeToolTip": "ATM\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T11:17:09.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AlertController.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\AlertController.cs",
+              "RelativeDocumentMoniker": "ATM\\Controllers\\AlertController.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\AlertController.cs",
+              "RelativeToolTip": "ATM\\Controllers\\AlertController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAK0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:05:32.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Projects\\ATM\\ATM\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ATM\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Projects\\ATM\\ATM\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ATM\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:05:28.815Z",
+              "EditorCaption": ""
             }
           ]
         }

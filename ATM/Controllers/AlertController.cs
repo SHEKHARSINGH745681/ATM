@@ -1,13 +1,16 @@
 ﻿using ATM.Models;
 using MailKit.Net.Smtp;
-using MimeKit;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using ATM.Controllers.Enum;
 using ATM.Data;
-using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
+using ATM.Controllers.Enum;
+using System.IO;
+using MimeKit;
+
 
 namespace ATM.Controllers
 {
@@ -161,30 +164,51 @@ namespace ATM.Controllers
 
         private void SendCreditAlertEmail(string userEmail, double creditedAmount, double totalBalance)
         {
+
+
+
+            var username = User.FindFirstValue(System.Security.Claims.ClaimTypes.NameIdentifier);
+
+            string maskedUsername = username.Length > 4
+                ? "XXXXXXX" + username.Substring(username.Length - 4)
+                : username;  
+
+
+
+
+
             var email = new MimeMessage();
-            email.From.Add(new MailboxAddress("ATM Service", _emailSettings.SenderEmail));
+            email.From.Add(new MailboxAddress("SBI Card Transaction Alert", _emailSettings.SenderEmail));
             email.To.Add(new MailboxAddress(userEmail, userEmail));
-            email.Subject = "Credit Alert";
+            email.Subject = "Transaction Alert from HDFC Card";
 
-            var message = $"Dear CardHolder, \n\n" +
-                          $"This is to inform you that, \n\n" +
-                          $"An amount of {creditedAmount} has been credited to your account.\n" +
-                          $"Your new balance is {totalBalance}.\n\n" +
-                          $"Thank you for banking with us.";
+            var htmlMessage = $@"
+            <html>
+              <body>
+                 Dear CardHolder ({maskedUsername}), <br><br>
+                 This is to inform you that, <br><br>
+                 An amount of {creditedAmount} has been credited to your account.<br>
+                 Your new balance is {totalBalance}.<br><br>
+                 Thank you for banking with us.
+              </body>
+            </html>";
 
-            var bodyBuilder = new BodyBuilder { TextBody = message };
+            var bodyBuilder = new BodyBuilder
+            {
+                HtmlBody = htmlMessage
+            };
+
             email.Body = bodyBuilder.ToMessageBody();
 
             using (var smtpClient = new SmtpClient())
             {
-                smtpClient.Connect(_emailSettings.SMTPServer, _emailSettings.SMTPPort,
-                    MailKit.Security.SecureSocketOptions.StartTls);
-
+                smtpClient.Connect(_emailSettings.SMTPServer, _emailSettings.SMTPPort, MailKit.Security.SecureSocketOptions.StartTls);
                 smtpClient.Authenticate(_emailSettings.SenderEmail, _emailSettings.SenderPassword);
-
                 smtpClient.Send(email);
                 smtpClient.Disconnect(true);
             }
         }
+
+
     }
 }

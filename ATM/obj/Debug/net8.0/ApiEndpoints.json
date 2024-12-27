@@ -74,6 +74,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ATM.Controllers.AlertController",
+    "Method": "CreditAndSendEmail",
+    "RelativePath": "api/Alert/credit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ATM.Models.DepositWithdrawRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATM.Controllers.AlertController",
+    "Method": "DebitAndSendEmail",
+    "RelativePath": "api/Alert/debit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ATM.Models.DepositWithdrawRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ATM.Controllers.EmailController",
     "Method": "SendEmail",
     "RelativePath": "api/Email/send",

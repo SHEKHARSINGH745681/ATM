@@ -273,7 +273,6 @@ namespace ATM.Controllers
             }
 
 
-            // Generate PDF
             using var memoryStream = new MemoryStream();
             using (var writer = new PdfWriter(memoryStream))
             {
@@ -285,7 +284,6 @@ namespace ATM.Controllers
 
                 string currentDate = systemTime.ToString("dd-MM-yyyy");
 
-                // Add content to the document
                 document.Add(new Paragraph("Transaction History").SetBold().SetFontSize(18));
                 document.Add(new Paragraph($"User: {user.UserName}").SetFontSize(12));
                 document.Add(new Paragraph($"Date: {currentDate}").SetFontSize(12));
@@ -294,13 +292,11 @@ namespace ATM.Controllers
 
                 var table = new Table(UnitValue.CreatePercentArray(new float[] { 3, 3, 3, 3 })).UseAllAvailableWidth();
 
-                // Add table headers
                 table.AddHeaderCell("Amount (Rs.)");
                 table.AddHeaderCell("Transaction Type");
                 table.AddHeaderCell("Date");
                 table.AddHeaderCell("Total Balance");
 
-                // Add transactions to the table
                 foreach (var transaction in transactionHistory)
                 {
                     table.AddCell(transaction.GetType().GetProperty("Amount").GetValue(transaction).ToString());
@@ -311,7 +307,7 @@ namespace ATM.Controllers
 
 
                 document.Add(table);
-                string logoPath = @"D:\Image\SV-Logo.png";
+                string logoPath = @"/Users/shekharsingh/Image/png.png";
                 var logo = new Image(ImageDataFactory.Create(logoPath));
                 logo.SetAutoScale(true);
                 logo.SetFixedPosition(440, 30);
@@ -319,32 +315,35 @@ namespace ATM.Controllers
                 document.Close();
             }
 
-            // Return the PDF as a file
             var fileName = "TransactionHistory.pdf";
             return File(memoryStream.ToArray(), "application/pdf", fileName);
         }
 
-        //[HttpPost("ResetPassword")]
-        //public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest resetPasswordRequest)
-        //{
-        //    var userId = User.FindFirstValue(System.Security.Claims.ClaimTypes.NameIdentifier);
-        //    if (userId == null)
-        //    {
-        //        return Unauthorized(new { Message = " User not found or not authentucated" });
-        //    }
-        //    //find krege user ko db main se
-        //    var user = await _context.Users.Where
-        //        (x => x.Id == userId).FirstOrDefaultAsync();
-        //    if (user == null)
-        //    {
-        //        return NotFound(new { Message = "User not found." });
+        [HttpPost("ResetPassword")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest request)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized(new { Message = "User not authenticated." });
 
-        //    }
-        //    //validate krege exist password ko
-        //    if()
-        }   
+            var user = await _context.Users
+                                     .Where(x => x.UserName == userId)
+                                     .FirstOrDefaultAsync();
+            if (user == null)
+                return NotFound(new { Message = "User not found." });
+
+            if (!await _userManager.CheckPasswordAsync(user, request.OldPassword))
+                return BadRequest(new { Message = "Old password is incorrect." });
+
+            if (string.IsNullOrWhiteSpace(request.NewPassword) || request.NewPassword.Length < 6)
+                return BadRequest(new { Message = "Password must be at least 8 characters long." });
+
+            var result = await _userManager.ChangePasswordAsync(user, request.OldPassword, request.NewPassword);
+            if (!result.Succeeded)
+                return BadRequest(new { Message = "Password reset failed.", Errors = result.Errors.Select(e => e.Description) });
+
+            return Ok(new { Message = "Password reset successful." });
+        }
+
     }
-
-
-
-
+}

@@ -1,11 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
-
-namespace ATM.Models
+﻿namespace ATM.Models
 {
-    public class Login 
+    public class LoginOTP
     {
         public string Username { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
-
+        public string Otp { get; set; } = string.Empty;
     }
 }

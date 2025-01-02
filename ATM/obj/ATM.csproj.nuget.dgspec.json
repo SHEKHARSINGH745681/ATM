@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shekharsingh/Projects/ATM/ATM/ATM.csproj": {}
+    "D:\\Projects\\ATM\\ATM\\ATM.csproj": {}
   },
   "projects": {
-    "/Users/shekharsingh/Projects/ATM/ATM/ATM.csproj": {
+    "D:\\Projects\\ATM\\ATM\\ATM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shekharsingh/Projects/ATM/ATM/ATM.csproj",
+        "projectUniqueName": "D:\\Projects\\ATM\\ATM\\ATM.csproj",
         "projectName": "ATM",
-        "projectPath": "/Users/shekharsingh/Projects/ATM/ATM/ATM.csproj",
-        "packagesPath": "/Users/shekharsingh/.nuget/packages/",
-        "outputPath": "/Users/shekharsingh/Projects/ATM/ATM/obj/",
+        "projectPath": "D:\\Projects\\ATM\\ATM\\ATM.csproj",
+        "packagesPath": "C:\\Users\\ShekharSingh\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\ATM\\ATM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/shekharsingh/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ShekharSingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

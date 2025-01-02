@@ -14,6 +14,7 @@ namespace ATM.Data
         }
         public DbSet<Balance> Balances { get; set; }
         public DbSet<ImportExcel> importExcels { get; set; }
+        public DbSet<VerifyOtpModel> VerifyOtpModels { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

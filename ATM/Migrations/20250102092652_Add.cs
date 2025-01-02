@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ATM.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class Add : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -64,6 +64,27 @@ namespace ATM.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_importExcels", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "VerifyOtpModels",
+                columns: table => new
+                {
+                    OtpId = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Username = table.Column<string>(type: "text", nullable: false),
+                    Otp = table.Column<string>(type: "text", nullable: false),
+                    CreatedOn = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    UpdatedOn = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    ExpirationTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    CreatedBy = table.Column<string>(type: "text", nullable: false),
+                    UpdatedBy = table.Column<string>(type: "text", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
+                    IsActive = table.Column<bool>(type: "boolean", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_VerifyOtpModels", x => x.OtpId);
                 });
 
             migrationBuilder.CreateTable(
@@ -260,6 +281,9 @@ namespace ATM.Migrations
 
             migrationBuilder.DropTable(
                 name: "importExcels");
+
+            migrationBuilder.DropTable(
+                name: "VerifyOtpModels");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

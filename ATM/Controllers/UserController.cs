@@ -307,7 +307,7 @@ namespace ATM.Controllers
 
 
                 document.Add(table);
-                string logoPath = @"/Users/shekharsingh/Image/png.png";
+                string logoPath = @"D:\Image\SV-Logo.png";
                 var logo = new Image(ImageDataFactory.Create(logoPath));
                 logo.SetAutoScale(true);
                 logo.SetFixedPosition(440, 30);
@@ -319,8 +319,9 @@ namespace ATM.Controllers
             return File(memoryStream.ToArray(), "application/pdf", fileName);
         }
 
-        [HttpPost("ResetPassword")]
-        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest request)
+
+        [HttpPost("ChangePassword")]
+        public async Task<IActionResult> ChangePassword([FromBody] ResetPasswordRequest request)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (string.IsNullOrEmpty(userId))
@@ -342,7 +343,7 @@ namespace ATM.Controllers
             if (!result.Succeeded)
                 return BadRequest(new { Message = "Password reset failed.", Errors = result.Errors.Select(e => e.Description) });
 
-            return Ok(new { Message = "Password reset successful." });
+            return Ok(new { Message = "Password reset successfully." });
         }
 
     }

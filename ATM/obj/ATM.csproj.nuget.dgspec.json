@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\ATM\\ATM\\ATM.csproj": {}
+    "/Users/shekharsingh/Projects/ATM/ATM/ATM.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\ATM\\ATM\\ATM.csproj": {
+    "/Users/shekharsingh/Projects/ATM/ATM/ATM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\ATM\\ATM\\ATM.csproj",
+        "projectUniqueName": "/Users/shekharsingh/Projects/ATM/ATM/ATM.csproj",
         "projectName": "ATM",
-        "projectPath": "D:\\Projects\\ATM\\ATM\\ATM.csproj",
-        "packagesPath": "C:\\Users\\ShekharSingh\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\ATM\\ATM\\obj\\",
+        "projectPath": "/Users/shekharsingh/Projects/ATM/ATM/ATM.csproj",
+        "packagesPath": "/Users/shekharsingh/.nuget/packages/",
+        "outputPath": "/Users/shekharsingh/Projects/ATM/ATM/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ShekharSingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/shekharsingh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -130,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

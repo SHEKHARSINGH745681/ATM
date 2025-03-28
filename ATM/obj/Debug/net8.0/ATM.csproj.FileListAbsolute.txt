@@ -310,3 +310,6 @@ D:/Projects/ATM/ATM/bin/Debug/net8.0/BCrypt.Net-Next.dll
 /Users/shekharsingh/Projects/ATM/ATM/obj/Debug/net8.0/ATM.pdb
 /Users/shekharsingh/Projects/ATM/ATM/obj/Debug/net8.0/ATM.genruntimeconfig.cache
 /Users/shekharsingh/Projects/ATM/ATM/obj/Debug/net8.0/ref/ATM.dll
+/Users/shekharsingh/Projects/ATM/ATM/bin/Debug/net8.0/ATM.staticwebassets.endpoints.json
+/Users/shekharsingh/Projects/ATM/ATM/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/Users/shekharsingh/Projects/ATM/ATM/obj/Debug/net8.0/staticwebassets/msbuild.ATM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

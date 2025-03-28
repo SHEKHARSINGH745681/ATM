@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "6YBaPzZZe3tUFVfZciVr4nLTzrsFkw9hTgbMdQiPcCo=",
+  "Hash": "p8FWv3tkzthPWCeHx5lwYUo1Z7zKhDVaS8CMZ2vA+x8=",
   "Source": "ATM",
   "BasePath": "_content/ATM",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

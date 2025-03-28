@@ -67,7 +67,6 @@ namespace ATM.Controllers
 
 
 
-
             if (dataList.Any())
             {
                 await _context.AddRangeAsync(dataList);

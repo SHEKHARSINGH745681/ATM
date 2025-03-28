@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ijm3YbrD4e7JQKf69bCYYKn0hWNVaCcQdOri8FaXHmdKsfGRhRQhFS9nxfGE+AKaTUtXWBt4WKdaDnTRu2yZRw==",
+  "dgSpecHash": "gUP7VcAPwwk=",
   "success": true,
   "projectFilePath": "/Users/shekharsingh/Projects/ATM/ATM/ATM.csproj",
   "expectedPackageFiles": [
@@ -147,7 +147,10 @@
     "/Users/shekharsingh/.nuget/packages/system.threading.threadpool/4.3.0/system.threading.threadpool.4.3.0.nupkg.sha512",
     "/Users/shekharsingh/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/shekharsingh/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/shekharsingh/.nuget/packages/zxing.net/0.16.8/zxing.net.0.16.8.nupkg.sha512"
+    "/Users/shekharsingh/.nuget/packages/zxing.net/0.16.8/zxing.net.0.16.8.nupkg.sha512",
+    "/Users/shekharsingh/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/shekharsingh/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/shekharsingh/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

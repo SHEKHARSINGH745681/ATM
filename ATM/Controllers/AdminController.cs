@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ATM.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class AdminController : ControllerBase

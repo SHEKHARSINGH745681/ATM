@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ATM.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250102092652_Add")]
-    partial class Add
+    [Migration("20250328161742_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
